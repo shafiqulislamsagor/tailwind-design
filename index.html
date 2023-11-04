@@ -5,13 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Design</title>
     <link rel="stylesheet" href="/css-files/output.css">
+    
 </head>
+<!-- npx tailwindcss -i ./css-files/input.css -o ./css-files/output.css --watch -->
 <body>
-    <header class="container">
-        <!-- nav bar -->
-        <div>
-            <nav></nav>
-            <nav></nav>
+    <header class="bg-[#FFFBF0] h-screen">
+        <div class="absolute w-36 h-36 left-[480px] top-[-2px]">
+            <img class="max-w-full" src="icons/Group 33064.svg" alt="">
+        </div>
+        <div class="container w-4/5 mx-auto ">
+                <!-- nav bar -->
+            <div class="flex space-x-96">
+                <div class="w-72 h-10 mt-11">
+                    <a href="index.html">
+                        <img class="max-w-full" src="icons/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="mt-12">
+                    <ul class="flex gap-7 items-center">
+                        <li class="text-[#3C3C3C] font-serif font-medium"><a class="" href="#">Home</a></li>
+                        <li class="text-[#3C3C3C] font-serif font-medium"><a class="" href="#">Product</a></li>
+                        <li class="text-[#3C3C3C] font-serif font-medium"><a class="" href="#">About us</a></li>
+                        <li class="text-[#3C3C3C] font-serif font-medium"><a class="" href="#">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- banner -->
+            <div class="flex">
+                <div class="mt-24">
+                    <h1 class="text-7xl"><span class="text-[#FABE4C]">Be the Penguins</span> of Winter</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <button><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" class="h-6 w-6 block" />
+                    </svg>
+                        BUY NOW</button>
+                </div>
+                <div class="w-[549px] h-[559px] mr-40 mt-5">
+                    <img class="max-w-full" src="images/model.png" alt="">
+                </div>
+            </div>
         </div>
     </header>
 </body>
