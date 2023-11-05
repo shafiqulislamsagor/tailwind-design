@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/src/output.css">
     
 </head>
-<!-- npx tailwindcss -i ./css-files/input.css -o ./css-files/output.css --watch -->
+<!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
 <body>
     <header class="bg-[#FFFBF0] h-[650px]">
         <div class="absolute w-36 h-36 left-[480px] top-[-2px]">
@@ -54,7 +54,7 @@
     <main class="w-4/5 mx-auto bg-white">
         <!-- Woman Product -->
         <h1 class="uppercase mt-12 mb-5 text-5xl font-Bebas text-[#363958]">W0Man Jacket </h1>
-        <div class="mb-20 mt-12 grid grid-cols-3 gap-8">
+        <section class="mb-20 mt-12 grid grid-cols-3 gap-8">
             <div class="w-[355px] h-[550px] bg-slate-50 rounded-[20px] pt-[18px] shadow-sm">
                 <div class="w-[334px] h-[327px] bg-slate-100 p-6 mx-auto rounded-[20px] flex items-center content-center ">
                     <div class="w-[238px] h-auto mx-auto" ><img  src="images/jacket-1.png" alt="" class="max-w-full" ></div>
@@ -100,10 +100,10 @@
                 </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- Man Product -->
         <h1 class="uppercase mt-12 mb-5 text-5xl font-Bebas text-[#363958]">Man Jacket</h1>
-        <div class="mb-20 mt-12 grid grid-cols-3 gap-8">
+        <section class="mb-20 mt-12 grid grid-cols-3 gap-8">
             <div class="w-[355px] h-[550px] bg-slate-50 rounded-[20px] pt-[18px] shadow-sm">
                 <div class="w-[334px] h-[327px] bg-slate-100 p-6 mx-auto rounded-[20px] flex items-center content-center ">
                     <div class="w-[238px] h-auto mx-auto" ><img  src="images/jacket-4.png" alt="" class="max-w-full" ></div>
@@ -149,6 +149,36 @@
                 </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <section class="grid grid-cols-2 mb-48">
+            <div class="w-[450px] h-[135px] bg-white shadow-2xl flex p-6 mb-4 rounded-2xl">
+                <img src="icons/house.png" alt="" class="w-[76px] h-20 mr-6">
+                <div>
+                    <h3 class="font-bold text-[#363958] font-Roboto text-2xl">Find the Perfect Fit</h3>
+                    <p class="leading-6 text-[#363958] font-Roboto mt-3">Everybody is different, which is why we offer styles for every body.
+                    </p>
+                </div>
+            </div>
+            <div class="row-span-3 pt-20">
+                <img src="images/shopping.png" alt="">
+            </div>
+            <div class="w-[450px] h-[135px] bg-white shadow-2xl flex p-6 mb-4  rounded-2xl">
+                <img src="icons/box.png" alt="" class="w-[76px] h-20 mr-6">
+                <div>
+                    <h3 class="font-bold text-[#363958] font-Roboto text-2xl">Free Exchanges</h3>
+                    <p class="leading-6 text-[#363958] font-Roboto mt-3">One of the many reasons you can shop with peace of mind.
+                    </p>
+                </div>
+            </div>
+            <div class="w-[450px] h-[135px] bg-white shadow-2xl flex p-6 mb-4  rounded-2xl">
+                <img src="icons/question.png" alt="" class="w-[76px] h-20 mr-6">
+                <div>
+                    <h3 class="font-bold text-[#363958] font-Roboto text-2xl">Contact Our Seller</h3>
+                    <p class="leading-6 text-[#363958] font-Roboto mt-3">They are here to help you. That's quite literally what we pay them for.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
